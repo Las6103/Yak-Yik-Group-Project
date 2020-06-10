@@ -1,11 +1,11 @@
-const mongoose = require('../db/connection');
+const mongoose = require("../db/connection");
 const Schema = mongoose.Schema;
 
-const Reply = new Schema ({
-    reply: {
-        type: String,
-        required: true
-    }
-})
+const Reply = new Schema({
+  reply: {
+    type: String,
+    required: true,
+  },
+});
 
-module.exports = mongoose.model('Reply', Reply);
+module.exports = mongoose.model("Reply", Reply);
