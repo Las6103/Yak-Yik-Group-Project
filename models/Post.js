@@ -13,12 +13,7 @@ const Post = new Schema({
     type: String,
     required: true,
   },
-<<<<<<< HEAD
   reply: [String],
-=======
-
-  reply: [Reply]
->>>>>>> feature
 });
 
 module.exports = mongoose.model("Post", Post);
