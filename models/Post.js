@@ -6,6 +6,7 @@ const Post = new Schema({
     type: String,
     required: true,
   },
+  reply: [String],
 });
 
 module.exports = mongoose.model("Post", Post);

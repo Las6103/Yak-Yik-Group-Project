@@ -1,14 +1,19 @@
 [
   {
-    "post": "this is a fucking test post"
+    "post": "this is a fucking test post",
+    "reply": ["this is a reply","this is a reply to the same post wowowowow"]
   },
   {
-    "post": "this is a fucking test post2"
+    "post": "this is a fucking test post2",
+    "reply": ["this is a reply","this is a reply to the same post wowowowow"]
+
   },
   {
-    "post": "this is a fucking test post3"
+    "post": "this is a fucking test post3",
+    "reply": ["this is a reply","this is a reply to the same post wowowowow"]
   },
   {
-    "post": "this is a fucking test post4"
+    "post": "this is a fucking test post4",
+    "reply": ["this is a reply","this is a reply to the same post wowowowow"]
   }
 ]
