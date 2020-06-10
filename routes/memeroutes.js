@@ -1,24 +1,24 @@
 const express = require("express");
 const router = express();
-const Posts = require("../models/Post");
+const Memes = require("../models/Meme");
 
 /**
  * GET ROUTES
  */
 router.get("/", (req, res) => {
-  Posts.find({}).then((posts) => res.json(posts));
+  Memes.find({}).then((memes) => res.json(memes));
 });
 
 router.get("/id/:id", (req, res) => {
-  Posts.findById(req.params.id).then((posts) => res.json(posts));
+  Memes.findById(req.params.id).then((memes) => res.json(memes));
 });
 
 /**
  * POST ROUTES
  */
 router.post("/", (req, res) => {
-  Posts.create(req.body)
-    .then((posts) => res.json(posts))
+  Memes.create(req.body)
+    .then((memes) => res.json(memes))
     .catch((err) => console.log("Error :", err));
 });
 
@@ -26,8 +26,8 @@ router.post("/", (req, res) => {
  * PUT ROUTES
  */
 router.put("/id/:id", (req, res) => {
-  Posts.findByIdAndUpdate({ _id: req.params.id }, req.body, { new: true })
-    .then((posts) => res.json(posts))
+  Memes.findByIdAndUpdate({ _id: req.params.id }, req.body, { new: true })
+    .then((memes) => res.json(memes))
     .catch((err) => console.log("Error :", err));
 });
 
@@ -35,8 +35,8 @@ router.put("/id/:id", (req, res) => {
  * DELETE ROUTES
  */
 router.delete("/id/:id", (req, res) => {
-  Posts.findByIdAndRemove({ _id: req.params.id }).then((posts) =>
-    res.json(posts)
+  Memes.findByIdAndRemove({ _id: req.params.id }).then((memes) =>
+    res.json(memes)
   );
 });
 
