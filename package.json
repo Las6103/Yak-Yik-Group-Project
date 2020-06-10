@@ -1,0 +1,25 @@
+{
+  "name": "Yak-Yik-Group-Project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.9.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Las6103/Yak-Yik-Group-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Las6103/Yak-Yik-Group-Project/issues"
+  },
+  "homepage": "https://github.com/Las6103/Yak-Yik-Group-Project#readme"
+}
