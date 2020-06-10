@@ -1,4 +1,4 @@
-const mongoose = require("../db/connection");
+const mongoose = require('../db/connection');
 const Schema = mongoose.Schema;
 
 const Reply = new Schema({
@@ -16,4 +16,4 @@ const Post = new Schema({
   reply: [Reply],
 });
 
-module.exports = mongoose.model("Post", Post);
+module.exports = mongoose.model('Post', Post);
