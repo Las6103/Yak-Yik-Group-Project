@@ -16,6 +16,14 @@ router.post("/", (req, res) => {
     .catch((err) => console.log("Error :", err));
 });
 
+router.put("/id/:id", (req, res) => {
+  Posts.findByIdAndUpdate({ _id: req.params.id }),
+    req.body,
+    { new: true }
+      .then((posts) => res.json(posts))
+      .catch((err) => console.log("Error :", err));
+});
+
 //Delete
 router.delete("/id/:id", (req, res) => {
   Posts.findByIdAndRemove({ _id: req.params.id }).then((posts) =>
