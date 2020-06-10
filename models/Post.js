@@ -13,7 +13,7 @@ const Post = new Schema({
     type: String,
     required: true,
   },
-  reply: [String],
+  reply: [Reply],
 });
 
 module.exports = mongoose.model("Post", Post);
