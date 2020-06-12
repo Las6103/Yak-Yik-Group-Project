@@ -44,10 +44,10 @@ Delete post or meme by ObjectID
 
 ## Authors
 
-Brian Avjean
-Miles Hamilton
-William Noble
-Leonardo Silva
+1. Brian Avjean
+2. Miles Hamilton
+3. William Noble
+4. Leonardo Silva
 
 ## Contributing
 
