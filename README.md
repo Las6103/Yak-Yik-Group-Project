@@ -20,34 +20,40 @@ The deployed API can be found [here](https://yak-yik-api.herokuapp.com/)
 
 ## Routes
 
-### GET requests
+#### GET requests
 `/posts`
+
 Display all posts in the database
 
 `/memes`
+
 Display all memes in the database
 
 `posts/id/:id` or `memes/id:id`
+
 Get post or meme by ObjectID
 
-### POST requests
+#### POST requests
 `/posts` or `/memes`
+
 Create post or meme
 
-### PUT requests
+#### PUT requests
 `posts/id/:id` or `memes/id:id`
+
 Update post or meme by ObjectID
 
-### DELETE requests
+#### DELETE requests
 `posts/id/:id` or `memes/id:id`
+
 Delete post or meme by ObjectID
 
 ## Authors
 
-1. Brian Avjean
-2. Miles Hamilton
-3. William Noble
-4. Leonardo Silva
+* Brian Avjean
+* Miles Hamilton
+* William Noble
+* Leonardo Silva
 
 ## Contributing
 
